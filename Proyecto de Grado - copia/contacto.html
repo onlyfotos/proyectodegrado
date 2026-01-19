@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto - Proyecto de Grado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="navbar">
+    <h1>Proyecto de Grado</h1>
+    <ul>
+      <li><a href="index.html">Resumen</a></li>
+      <li><a href="parte1.html">Primera Parte</a></li>
+      <li><a href="parte2.html">Segunda Parte</a></li>
+      <li><a href="parte4.html">En Construcción</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="hoja-de-vida.html">Hoja de Vida</a></li>
+    </ul>
+  </nav>
+</header>
+</body>
+
+<main class="contacto">
+  <h2>Formulario de Contacto</h2>
+  <p>Si deseas más información sobre el proyecto, completa el formulario.</p>
+
+  <form id="formContacto">
+    <label>Nombre</label>
+    <input type="text" id="nombre" required>
+
+    <label>Correo electrónico</label>
+    <input type="email" id="correo" required>
+
+    <label>Asunto</label>
+    <input type="text" id="asunto" required>
+
+    <label>Mensaje</label>
+    <textarea id="mensaje" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

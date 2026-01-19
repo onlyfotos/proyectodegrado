@@ -1,0 +1,311 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1A1A1A;
+  color: #E4E4E4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: #2C2C2C;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.navbar a {
+  color: #E4E4E4;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #1E90FF;
+}
+
+.contacto {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px;
+  background: #B39CD0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #B39CD0;
+}
+
+.seccion-proyecto {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 25px;
+}
+
+.seccion-proyecto h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .seccion-proyecto {
+    padding: 25px 15px;
+  }
+}
+
+.contacto {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+header {
+  width: 100%;
+}
+
+.navbar {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header {
+  width: 100%;
+}
+
+.site-header .navbar {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacto {
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.contenido-seccion {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.contenido-seccion h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #E4E4E4;
+  border-left: 5px solid #1E90FF;
+  padding-left: 12px;
+  text-align: left
+}
+
+.bloque {
+  background: #161616;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.bloque h3 {
+  margin-bottom: 10px;
+  color: #E4E4E4;
+}
+
+.bloque p {
+  line-height: 1.6;
+  color: #E4E4E4;
+}
+
+.bloque ul {
+  padding-left: 20px;
+}
+
+.bloque li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== NAVBAR NUEVA ===== */
+
+.navbar {
+  background: #2C2C2C;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #E4E4E4;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #E4E4E4;
+  font-weight: 500;
+  padding: 6px 4px;
+  position: relative;
+}
+
+.navbar ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: #1E90FF;
+  transition: width 0.3s ease;
+}
+
+.navbar ul li a:hover::after {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  background: #2C2C2C;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.en-construccion {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.en-construccion h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.en-construccion p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ffc46c;
+}
+
+.contenido {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 30px;
+}
+
+.bloque {
+  margin-bottom: 50px;
+}
+
+.bloque h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  border-left: 6px solid #1E90FF; /* moradito elegante */
+  padding-left: 15px;
+}
+
+.bloque p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #161616;
+  margin-bottom: 15px;
+}
+
+.bloque p {
+  color: #E4E4E4;
+}
+
+.hv-img {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.pdf-viewer {
+  width: 100%;
+  height: 750px;
+  border: none;
+  margin: 20px 0 40px;
+}
